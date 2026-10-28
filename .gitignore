@@ -1,0 +1,15 @@
+node_modules
+.playwright-mcp
+home-desktop.png
+.next
+out
+dist
+.vercel
+.env
+.env.local
+.env*.local
+data/demo-db.json
+data/uploads
+public/uploads
+*.tsbuildinfo
+next-env.d.ts

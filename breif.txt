@@ -1,0 +1,10 @@
+Installed Next.js (App Router), TypeScript, and Tailwind.
+Added Supabase auth, database clients, route protection, and supabase/migrations/001_init.sql.
+Built a Coursera-style home, catalog, course page, checkout, login, and register.
+Built the learner dashboard and the PDF lesson player.
+Built the admin area for courses, PDF uploads, and learners.
+Connected the app to your Supabase project after init.sql.
+Seeded 8 courses, 48 readings, and two accounts.
+Run: npm run dev
+Learner: learner@meridian.dev / learner123
+Admin: admin@meridian.dev / admin123
