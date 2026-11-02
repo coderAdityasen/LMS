@@ -34,7 +34,7 @@ export function buildLessonPdf(input: {
   summary: string;
 }) {
   const blocks = [
-    { size: 11, gap: 18, lines: ["MERIDIAN READING"] },
+    { size: 11, gap: 18, lines: ["EMINENCE CAREER SOLUTION READING"] },
     { size: 20, gap: 26, lines: wrap(input.title, 48) },
     { size: 11, gap: 16, lines: wrap(`${input.moduleTitle}  ·  ${input.courseTitle}`, 90) },
     { size: 13, gap: 18, lines: ["Overview"] },
@@ -58,7 +58,7 @@ export function buildLessonPdf(input: {
         92,
       ),
     },
-    { size: 10, gap: 14, lines: ["Meridian course reading. Keep this PDF with your notes."] },
+    { size: 10, gap: 14, lines: ["Eminence Career Solution course reading. Keep this PDF with your notes."] },
   ];
 
   const commands = ["BT"];

@@ -6,7 +6,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       <section className="hidden bg-navy px-12 py-12 text-white lg:flex lg:flex-col lg:justify-between">
         <Logo tone="light" />
         <div>
-          <p className="text-sm font-bold uppercase tracking-wide text-white/60">Meridian</p>
+          <p className="text-sm font-bold uppercase tracking-wide text-white/60">Eminence Career Solution</p>
           <h1 className="mt-3 max-w-md text-4xl font-bold leading-tight">Learn on a path, not a pile of links.</h1>
           <p className="mt-4 max-w-md text-base leading-7 text-white/75">
             Every course keeps its readings, PDFs, and progress in one library you can come back to.

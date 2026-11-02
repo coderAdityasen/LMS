@@ -65,7 +65,7 @@ export function AuthForm({ mode, nextPath }: { mode: "login" | "register"; nextP
       <p className="text-center text-sm text-muted">
         {mode === "login" ? (
           <>
-            New to Meridian?{" "}
+            New to Eminence Career Solution?{" "}
             <Link href={`/register?next=${encodeURIComponent(nextPath)}`} className="font-bold text-brand">
               Join for free
             </Link>

@@ -2,15 +2,15 @@
 
 @theme {
   --font-sans: var(--font-source), ui-sans-serif, system-ui, sans-serif;
-  --color-brand: #0056d2;
-  --color-brand-dark: #003e9c;
-  --color-brand-soft: #e8f1ff;
-  --color-ink: #1c1d1f;
-  --color-muted: #6a6f73;
-  --color-line: #d1d7dc;
-  --color-canvas: #f7f9fa;
-  --color-star: #b4690e;
-  --color-navy: #0b1b33;
+  --color-brand: #6c2db9;
+  --color-brand-dark: #531c92;
+  --color-brand-soft: #f4ecfc;
+  --color-ink: #111827;
+  --color-muted: #6b7280;
+  --color-line: #e5e7eb;
+  --color-canvas: #f9fafb;
+  --color-star: #f59e0b;
+  --color-navy: #170725;
 }
 
 @keyframes shimmer {

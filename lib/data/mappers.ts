@@ -7,8 +7,8 @@ export function normalizeMetadata(value: unknown): CourseMetadata {
   const level = levels.includes(raw.level as Level) ? (raw.level as Level) : "Beginner";
   return {
     subtitle: raw.subtitle ?? "",
-    partner: raw.partner ?? "Meridian",
-    instructor_name: raw.instructor_name ?? "Meridian instructor",
+    partner: raw.partner ?? "Eminence Career Solution",
+    instructor_name: raw.instructor_name ?? "Eminence Instructor",
     instructor_title: raw.instructor_title ?? "Instructor",
     instructor_bio: raw.instructor_bio ?? "",
     level,

@@ -13,3 +13,4 @@ data/uploads
 public/uploads
 *.tsbuildinfo
 next-env.d.ts
+reference/*

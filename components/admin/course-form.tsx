@@ -218,7 +218,7 @@ export function CourseForm({
 
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="Teaching Partner / Organization">
-            <Input name="partner" required defaultValue={course?.metadata.partner ?? "Meridian"} />
+            <Input name="partner" required defaultValue={course?.metadata.partner ?? "Eminence Career Solution"} />
           </Field>
           <Field label="Instructor Full Name">
             <Input name="instructor_name" required defaultValue={course?.metadata.instructor_name ?? "Lead Instructor"} />

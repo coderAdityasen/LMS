@@ -188,7 +188,7 @@ export function AdminCoursesView({ courses }: { courses: CourseView[] }) {
               {/* Course Meta */}
               <div className="p-5">
                 <p className="text-xs font-bold uppercase tracking-wider text-indigo-600">
-                  {course.metadata.partner || "Meridian"} · {course.metadata.category}
+                  {course.metadata.partner || "Eminence Career Solution"} · {course.metadata.category}
                 </p>
                 <h3 className="mt-1 text-base font-bold text-slate-900 group-hover:text-indigo-600 transition-colors line-clamp-1">
                   {course.title}

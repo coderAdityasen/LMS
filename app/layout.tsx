@@ -13,8 +13,8 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Meridian — Learn the skills that move your work",
-    template: "%s · Meridian",
+    default: "Eminence Career Solution — Learn the skills that move your work",
+    template: "%s · Eminence Career Solution",
   },
   description: "A course library with guided readings, PDF lessons, and a learner dashboard.",
 };

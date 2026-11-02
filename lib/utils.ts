@@ -38,6 +38,10 @@ export function safeNextPath(value: unknown, fallback = "/dashboard") {
 
 export function categoryTone(category: string) {
   const tones: Record<string, string> = {
+    Cloud: "from-sky-700 to-blue-950",
+    "Cyber Security": "from-red-700 to-slate-950",
+    Developer: "from-indigo-700 to-purple-950",
+    "Project Management": "from-purple-700 to-slate-950",
     "Data Science": "from-sky-700 to-blue-950",
     "Computer Science": "from-indigo-700 to-slate-950",
     Design: "from-rose-600 to-fuchsia-950",
